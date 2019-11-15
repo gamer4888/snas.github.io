@@ -18,3 +18,43 @@ a {
   color: #5271ff;;
   font-style: blue;
 }
+
+/*Navbar*/
+
+.navbar {
+	background: #5271ff; /* Bar Background Color */
+	color: white; /* Font Color */
+	font-size: 20px;
+	width: 100%;
+	height: 60px;    
+	/* box-shadow: 0 -1px 20px 0 black; */
+	position:sticky;
+	top:0;
+	}
+
+#icon {
+	padding: 3px;
+	float: left;
+	}
+
+.buttons {
+	color: white;
+	background-color: #5271ff;
+	font-size: 19px;
+	transition-duration: 0.4s;
+	padding: 16px;
+	text-align: center;
+	float: right;
+	}
+
+.buttons:hover {
+	background-color: #4763DF; /* Change button color when hoverd over */
+	}
+
+#title {
+	float: left;
+	color: white;
+	margin-top: 0px;
+	padding-top: 10px;
+	padding-left: 20px;
+	}
